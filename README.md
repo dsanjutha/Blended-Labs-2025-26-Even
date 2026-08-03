@@ -1,7 +1,21 @@
 EX NO -- 1 : Cloud-account-set-up-and-services
+
+
+
+
 REG NO : 212225240136
+
+
+
+
 NAME : SANJUTHA.D 
+
+
+
 Aim:
+
+
+
 To create an cloud account in AWS and to explore all of its services.
 
 Procedure
