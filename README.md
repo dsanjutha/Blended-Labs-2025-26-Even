@@ -1,105 +1,32 @@
-EX NO -- 1 : Cloud-account-set-up-and-services
+Lab-2 Build a VPC and launching a webserver
+
+NAME: Sanjutha D
+
+REG NO: 212225240136
+
+Aim: To set up of a Private Cloud in AWS. Setting up of a private cloud in AWS: Setting up a private cloud within AWS, also known as a Virtual Private Cloud (VPC), involves creating a logically isolated virtual network that you can use to launch AWS resources. This provides you with full control over your virtual networking environment, including resource placement, connectivity, and security. Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console. Next, add resources to it such as Amazon Elastic Compute Cloud (EC2) and Amazon Relational Database Service (RDS) instances. Finally, define how your VPCs communicate with each other across accounts, Availability Zones, or AWS Regions. Procedure: Plan Your VPC: ● Determine your needs: Define your use case, including application requirements, security needs, and compliance standards. ● Plan IP address ranges: Choose appropriate IP address ranges for your VPC and subnets to avoid conflicts. ● Select Availability Zones: Decide which Availability Zones (AZs) you'll use for your resources, considering redundancy and performance. ● Plan internet connectivity: Determine if you need public internet access and how to configure it. ● Define security: Plan your security groups, network ACLs, and access controls to ensure a secure environment. Create Your VPC: • Sign in to AWS Management Console: Access the VPC console and navigate to the VPC dashboard. • Choose "Create VPC": Initiate the VPC creation process. • Configure VPC details: Enter the VPC name, CIDR block, Availability Zones, and other necessary settings. • Create subnets: Define subnets within your VPC to isolate different parts of your network. • Create route tables: Specify how traffic is routed within and outside the VPC. • Create security groups: Define access control rules for your resources. Deploying Resources: • Launch EC2 instances: Create and launch virtual machines within your VPC. • Set up RDS instances: Deploy databases for your applications. • Configure networking: Connect your resources to the appropriate subnets, security groups, and route tables. • Deploy other AWS services: Integrate other services like S3 for storage and Lambda for serverless computing. Managing and Monitoring: • Use AWS CloudWatch: Monitor your VPC and resources for performance and health. • Configure logging and auditing: Track access and activity within your VPC for security and compliance. • Implement security best practices: Regularly review and update your security configuration. • Scale and adjust as needed: Adjust your VPC infrastructure to meet changing demands. Output:
+
+Snapshot 1: launch log
+<img width="1600" height="899" alt="WhatsApp Image 2026-08-04 at 7 23 10 PM" src="https://github.com/user-attachments/assets/6646244f-bfb5-4ae9-b350-cd880e6e2b0f" />
 
 
 
-
-REG NO : 212225240136
-
-
+Snapshot 2: web security group 
+<img width="1600" height="877" alt="WhatsApp Image 2026-08-04 at 7 23 10 PM (1)" src="https://github.com/user-attachments/assets/98991171-9208-492d-a32f-dac1c364e271" />
 
 
-NAME : SANJUTHA.D 
+ Snapshot 3: Creating route table 
+ <img width="1600" height="877" alt="WhatsApp Image 2026-08-04 at 7 23 10 PM (2)" src="https://github.com/user-attachments/assets/79a7d5fb-ff09-4bef-aff3-bfb3932c4477" />
 
 
-
-Aim:
-
-
-
-To create an cloud account in AWS and to explore all of its services.
-
-Procedure
-Step 1: Go to the AWS Website
-• Visit https://aws.amazon.com
-
-• Click “Create an AWS Account” in the top right corner.
-
-Step 2: Enter Account Information
-• Email address – Use a valid email you have access to.
-
-• Password – Create a strong password.
-
-• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
-
-Step 3: Choose Account Type
-• Personal or Professional – Select based on how you plan to use AWS.
-
-• Fill in your contact information (name, address, phone number).
-
-Step 4: Enter Payment Information
-• Provide credit/debit card details.
-
-Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
-
-Step 5: Verify Your Identity
-• Enter your phone number.
-
-• AWS will send a verification code via call or text.
-
-• Enter the code to confirm your identity.
-
-Step 6: Choose a Support Plan
-Choose one of the following: • Basic Support (Free)
-
-• Developer Support
-
-• Business Support
-
-• Enterprise Support
-
-For most beginners, select Basic Support.
-
-Step 7: Complete the Sign-Up
-• After reviewing all the details, click "Sign Up".
-
-• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
-
-Step 8: Sign In to AWS Console
-• Go to https://console.aws.amazon.com
-
-• Log in using your email and password to start using AWS services.
-
-Create a user with administrative access
-After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
-
-Secure your AWS account root user
-Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password. Turn on multi-factor authentication (MFA) for your root user.
-
-Create user with administrative access
-Enable IAM Identity Center. In IAM Identity Center, grant administrative access to a user.
-
-Sign in as the user with administrative access
-To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
-
-Services Overview:
-• Explore all the available services in AWS platform.
-
-Output:
-
-<img width="1919" height="1077" alt="Screenshot 2026-07-27 142444" src="https://github.com/user-attachments/assets/7df028b2-fd3d-4678-b681-c6baf9fdc21d" />
+Snapshot 4: Configuring route table 
+<img width="1600" height="899" alt="WhatsApp Image 2026-08-04 at 7 23 10 PM (3)" src="https://github.com/user-attachments/assets/055ca298-0275-4d01-b6f4-5eded217d356" />
 
 
 
-
-<img width="1919" height="1019" alt="Screenshot 2026-07-27 143908" src="https://github.com/user-attachments/assets/6ef1b952-1816-4525-b12c-dc61d0c8b359" />
-
-
-
-
-<img width="1919" height="1024" alt="Screenshot 2026-07-27 145021" src="https://github.com/user-attachments/assets/a47dd317-4a1d-4e33-9d17-c0051b435f5e" />
+Snapshot 5:subnets
+<img width="1908" height="1046" alt="Screenshot 2026-08-04 175847" src="https://github.com/user-attachments/assets/9b8d8ee6-0221-4d4b-a6f4-a0ad3f35cabd" />
 
 
 
-
-Result:
-Thus an account was created in AWS platform and all the services were explored.
+Result: Thus, a private cloud on AWS involves using VPCs has been created for a dedicated, isolated network where we can manage our resources and control access according to our requirements
