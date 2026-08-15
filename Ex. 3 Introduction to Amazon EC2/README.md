@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sanjutha D
+* **Register Number**:212225240136
+
 
 ---
 
@@ -96,13 +96,19 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+```
+1.Logged in to the AWS Management Console and opened the EC2 Dashboard.
+2.Explored Instances, AMIs, Instance Types, Key Pairs, Security Groups, and Elastic IPs.
+3.Clicked Launch Instance and selected Amazon Linux 2 AMI.
+4.Selected the t2.micro instance type and entered a name for the instance.
+5.Created and downloaded a PEM key pair for secure SSH access.
+6.Configured the Security Group by allowing SSH (Port 22) from my IP and HTTP (Port 80) from anywhere.
+7.Reviewed the settings and launched the EC2 instance, then waited until it reached the Running state.
+8.Copied the public IP and connected to the server using SSH through the terminal.
+9.Tested Stop, Start, Reboot, and checked Monitoring and Status Checks.
+10.After completing the experiment, terminated the EC2 instance and confirmed its state changed to Terminated.
+```
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
 
 ---
 
@@ -110,19 +116,33 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="851" height="462" alt="image" src="https://github.com/user-attachments/assets/9a475902-1a1a-4591-a24b-ee65eff622cb" />
+
+
+
+<img width="835" height="857" alt="image" src="https://github.com/user-attachments/assets/bc7a4c24-49d6-46c8-8bb8-e3f4e5401642" />
+
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="852" height="442" alt="image" src="https://github.com/user-attachments/assets/3beb5c48-faaf-4e07-aedb-ce149c56a6b0" />
+
+<img width="851" height="435" alt="image" src="https://github.com/user-attachments/assets/088180d6-9926-49ad-b468-5cfe6057aba8" />
+
+
+<img width="381" height="120" alt="image" src="https://github.com/user-attachments/assets/bf89cb44-4157-4f45-8885-0a193109b95e" />
+
+
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
+<img width="847" height="432" alt="image" src="https://github.com/user-attachments/assets/b97e8ca2-77c2-4511-815b-d270bbc08b67" />
 
-(Insert Screenshot Here)
+<img width="852" height="441" alt="image" src="https://github.com/user-attachments/assets/a0123589-34f4-4d9f-ab55-8d193b05de62" />
 
 ---
 
