@@ -2,9 +2,8 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sanjutha D
+* **Register Number**: 212225240136
 
 ---
 
@@ -81,34 +80,54 @@ Test the database server by connecting to it locally or remotely and performing 
 ---
 
 ## Workflow (Student Explanation)
+1. First, I logged in to the **AWS Management Console** using my AWS account.
 
-(Write the steps you followed in your own words)
+2. I searched for **Amazon RDS (Relational Database Service)** in the AWS Services section and opened the RDS Dashboard.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+3. I clicked on **Create Database** to start creating a new database server.
+
+4. I selected **Standard Create** to configure the database settings manually.
+
+5. I selected **MySQL** as the database engine.
+
+6. I selected a suitable **database instance size** based on the requirements.
+
+7. I entered a **DB instance identifier**, username, and password for the database.
+
+8. I configured the **storage settings** such as storage type and allocated storage.
+
+9. I configured the **connectivity settings**, including the VPC and security group.
+
+10. I reviewed all the database settings and clicked **Create Database**.
+
+11. AWS started creating the database server, and I waited until the database status changed to **Available**.
+
+12. I checked the database details and obtained the **endpoint** used to connect to the database.
+
+13. Finally, I verified that the database server was successfully created and ready to use.
+
+
+
 
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
+ <img width="840" height="437" alt="image" src="https://github.com/user-attachments/assets/9c61bd41-90f6-4be4-aa5a-2e374de0d0a0" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="837" height="436" alt="image" src="https://github.com/user-attachments/assets/c997eb6d-aa07-4f9b-b1fe-dfd180246a50" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
-
-(Insert Screenshot Here)
+<img width="668" height="275" alt="Screenshot 2026-08-15 221036" src="https://github.com/user-attachments/assets/539649c3-61d1-4b4a-ab9f-21f0f004afc8" />
 
 ---
 
