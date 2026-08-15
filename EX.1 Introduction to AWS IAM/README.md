@@ -1,5 +1,14 @@
 # Lab 1 - Introduction to AWS Identity and Access Management (IAM)
 
+##AUTHOR
+
+
+```python
+Name:Sanjutha D
+Reg no:212225240136
+course: Introduction to cloud computing
+```
+
 ## Title
 Introduction to AWS Identity and Access Management (IAM)
 
@@ -27,15 +36,20 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Reviewed pre-created IAM users: user-1, user-2, user-3  
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
-**Screenshot:**  
-(Add screenshot here)
+**Screenshot:**
+
+  <img width="858" height="410" alt="image" src="https://github.com/user-attachments/assets/500b728a-8950-452f-ba6c-83f219fcf786" />
+
+  
+  
 
 ### Task 2: Add Users to Groups
 - Added user-1 to the S3-Support group  
 - Added user-2 to the EC2-Support group  
 - Added user-3 to the EC2-Admin group  
 **Screenshot:**  
-(Add screenshot here)
+  <img width="857" height="410" alt="image" src="https://github.com/user-attachments/assets/b523ffb8-a7e4-43ec-94ea-93e2697d8742" />
+
 
 ### Task 3: Test IAM User Permissions
 - Logged in using IAM sign-in URL  
@@ -43,7 +57,8 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Verified EC2 read-only access for user-2  
 - Verified EC2 administrative access for user-3  
 **Screenshot:**  
-(Add screenshot here)
+<img width="853" height="398" alt="image" src="https://github.com/user-attachments/assets/352ba639-f701-4caf-84cf-cce8eddb7edf" />
+
 
 
 ## Workflow
@@ -64,8 +79,5 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 ## Conclusion
 This lab provided hands-on experience with AWS IAM by demonstrating how organizations manage secure access to cloud resources. Assigning users to groups with predefined policies simplified permission management and ensured role-based access control across AWS services.
 
-
-## Author
-**Name:** Your Name and (Reg No)
-**Course:** Introduction to Cloud Computing  
+ 
 
