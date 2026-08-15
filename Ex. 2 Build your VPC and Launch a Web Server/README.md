@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sanjutha D
+* **Register Number**: 212225240136
+
 
 ---
 
@@ -40,7 +40,6 @@ The objective of this experiment is to understand how to design and configure a 
 Create a new Virtual Private Cloud (VPC) with a private IP address range. The VPC acts as a logically isolated network in AWS where all other resources will be deployed.
 
 Students should create a VPC with an appropriate CIDR block (for example, 10.0.0.0/16) and assign a meaningful name.
-
 
 ### Task 2: Create a Public Subnet
 
@@ -85,33 +84,72 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+```
+1.Create a VPC with a suitable IPv4 CIDR block, such as 10.0.0.0/16.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Create a public subnet inside the VPC, such as 10.0.1.0/24.
+
+3.Create and attach an Internet Gateway (IGW) to the VPC to provide internet connectivity.
+
+4.Create a route table and add a route 0.0.0.0/0 through the Internet Gateway.
+
+5.Associate the route table with the public subnet.
+
+6.Launch an EC2 instance in the public subnet and enable a public IPv4 address.
+
+7.Configure the security group to allow SSH (port 22) and HTTP (port 80) traffic.
+
+8.Connect to the EC2 instance using SSH or EC2 Instance Connect.
+
+9.Install and start the Apache HTTP web server on the EC2 instance.
+
+10.Create a simple HTML webpage and place it in the Apache web server's document directory.
+
+11.Access the webpage using the EC2 instance's public IPv4 address in a web browser.
+```
 
 ---
+
+
+12.Verify the output and capture screenshots of the VPC/subnet, running EC2 instance, and web server webpage.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+
+<img width="855" height="433" alt="image" src="https://github.com/user-attachments/assets/de5e85d5-7512-4dd5-81b6-a781c5cfeb49" />
+
+
+<img width="847" height="445" alt="image" src="https://github.com/user-attachments/assets/2e734771-b167-4ccb-a8c6-9cd7920eb710" />
+
+
+
+<img width="850" height="437" alt="image" src="https://github.com/user-attachments/assets/2ccd52a1-315e-4f66-b453-a81a372b4a3d" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
+<img width="847" height="437" alt="image" src="https://github.com/user-attachments/assets/12ea3d21-84e1-4eed-9381-83e5a2a528a6" />
 
-(Insert Screenshot Here)
+
+<img width="851" height="440" alt="image" src="https://github.com/user-attachments/assets/b186d3ae-dae3-4f3c-886e-2501a0148bc1" />
+
+<img width="842" height="443" alt="image" src="https://github.com/user-attachments/assets/0e0c5a5c-3b91-49a0-9c1a-f050668c199c" />
+
+<img width="850" height="441" alt="image" src="https://github.com/user-attachments/assets/9149b887-fffa-4f0c-8e4e-7874cc966cf6" />
+
+
+
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
+<img width="746" height="313" alt="image" src="https://github.com/user-attachments/assets/6ec6d391-e01e-4a6d-a16e-58e353bb1e59" />
 
-(Insert Screenshot Here)
+<img width="746" height="242" alt="image" src="https://github.com/user-attachments/assets/86fa67d5-1853-40fb-a0d2-297c9c90e475" />
+
 
 ---
 
